@@ -13,3 +13,4 @@ Sample Input 2
 (())(()())
 Sample Output 2
 4 3 2 1 10 7 6 9 8 5
+Your code should run in O(n)
