@@ -1,0 +1,36 @@
+We have a list that is empty at first.
+You will be asked q requests, each request is of the following three types:
+Add a: Add “a” to the list.
+Remove a: Delete one of the “a”s in the list (if any).
+Count a: You should say how many “a”s are currently in the list.
+You must respond to the third type of requests.
+
+Sample Input 1
+15
+Add 5
+Add 6
+Add 5
+Count 5
+Count 6
+Count 2
+Add 5
+Count 5
+Remove 5
+Count 5
+Count 6
+Count 10
+Add 10
+Add 6
+Count 10
+
+Sample Output 1
+2
+1
+0
+3
+2
+1
+0
+1
+
+Your code should run in O(n)
