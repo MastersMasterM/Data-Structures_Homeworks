@@ -1,0 +1,32 @@
+We have a linked list that initially contains only the number 1.
+You will be asked q requests, the ith one is one of the following three types:
+•	Front: i+1 is added to the front of the list.
+•	Back: i+1 is added to the back of the list.
+•	Middle: i+1 is added to the middle of the list.
+If we consider the length of the list to be n, when n is even, we must add the number after n / 2 of the list number, and if n is odd, we consider the ceil of n / 2, for example, if the length of the list is 5, the number must be added after the third place, if the length of the list is 10 after the fifth number and if the length of the list is 1 after the first number.)
+At the end you should print the list members in order.
+Sample Input 1
+10
+Front
+Front
+Back
+Middle
+Middle
+Middle 
+Back
+Back
+Back
+Front
+
+Sample Output 1
+11 3 2 5 7 6 1 4 8 9 10
+
+Sample Input 2
+2
+Middle
+Front
+Sample Output 2
+3 1 2
+
+Your code should run in O(n)
+
