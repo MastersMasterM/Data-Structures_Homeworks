@@ -1,0 +1,29 @@
+There are n boxes numbered from 1 to n in a row, respectively.
+At the beginning there exists i books in the ith box.
+You will be asked q requests; each request is of the following three types:
+•	Put a b: All the books in box number a should be taken out of this box and placed on the books in box b, respectively (here, the lowest book in box a is placed on the top book in box b, respectively.)
+•	Delete a: Book number a should be discarded wherever it is (the order of the rest of the books in the box does not change.)
+•	Reverse a: Reverse the order of the books in box a.
+Finally, after completing all the requests, you should print out how the books are placed in each box.
+If the box i is empty, print the word "Empty".
+Sample Input 1
+6 10
+Put 1 2
+Put 3 2
+Reverse 2
+Put 2 3
+Put 6 3
+Reverse 3
+Reverse 2
+Reverse 5
+Delete 1
+Delete 4
+Sample Output 2
+Empty
+Empty
+6 2 3 
+Empty
+5 
+Empty
+
+Your code should run in O(n)
