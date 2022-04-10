@@ -1,0 +1,15 @@
+You are given number n and then a string s of length 2*n consisting of parentheses.
+You must print the number of the parentheses paired with each open and closed parenthesis.
+It is guaranteed that for each “(“there exists one “)” in s.
+
+Sample Input 1
+1
+()
+Sample output 1
+2 1
+In this example, the first parenthesis is paired with the second parenthesis and the second parenthesis with the first parenthesis, so we print 2 and 1, respectively.
+Sample Input 2
+5
+(())(()())
+Sample Output 2
+4 3 2 1 10 7 6 9 8 5
